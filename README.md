@@ -5,6 +5,7 @@ It is a Streamlit-based web application that analyzes uploaded videos and detect
 It does **not** focus on object motion — instead, it detects changes in the global scene indicating that the camera itself moved.
 
 ---
+
 ## 📷 Screenshot
 
 ![Camera Detector Screenshot](https://github.com/user-attachments/assets/90a2831b-2218-42a6-8172-f3ee63661157)
