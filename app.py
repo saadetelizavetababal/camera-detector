@@ -1,3 +1,18 @@
+import os
+
+# Streamlit config dosyasını kullanıcının home dizininde oluştur
+config_dir = os.path.join(os.path.expanduser("~"), ".streamlit")
+os.makedirs(config_dir, exist_ok=True)
+
+config_path = os.path.join(config_dir, "config.toml")
+with open(config_path, "w") as f:
+    f.write("""
+[server]
+headless = true
+port = $PORT
+enableCORS = false
+""")
+
 import streamlit as st
 import tempfile
 from movement_detector import extract_frames, detect_camera_movement
