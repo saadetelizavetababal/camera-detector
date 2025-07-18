@@ -13,7 +13,7 @@ It does **not** focus on object motion — instead, it detects changes in the gl
 ## 🚀 Live App
 
 🔗 [Click here to try the app online](https://your-deployment-url.com)  
-(Replace this with your Streamlit or Hugging Face link after deployment)
+
 
 ---
 
